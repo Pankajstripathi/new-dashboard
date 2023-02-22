@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0">
+	<title>GeeksForGeeks</title>
+	<link rel="stylesheet"
+		href="style.css">
+	<link rel="stylesheet"
+		href="responsive.css">
+</head>
+
+<body>
+
+	<!-- for header part -->
+	<header>
+
+		<div class="logosec">
+			<div class="logo">ssingularity</div>
+			<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png"
+				class="icn menuicn"
+				id="menuicn"
+				alt="menu-icon">
+		</div>
+
+		 <!-- <div class="searchbar">
+			<input type="text"
+				placeholder="Search">
+			<div class="searchbtn">
+			<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+					class="icn srchicn"
+					alt="search-icon">
+			</div>
+		</div>  -->
+
+		<div class="message">
+			<div class="circle"></div>
+			<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/8.png"
+				class="icn"
+				alt="">
+			<div class="dp">
+			<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180014/profile-removebg-preview.png"
+					class="dpicn"
+					alt="dp">
+			</div>
+		</div>
+
+	</header>
+
+	<div class="main-container">
+		<div class="navcontainer">
+			<nav class="nav">
+				<div class="nav-upper-options">
+					<div class="nav-option option1">
+						<h4>My Analytics </h4>
+					</div>
+
+					<div class="option2 nav-option">
+						<h4> My Courses</h4>
+					</div>
+
+					<div class="nav-option option3">
+						<h4> Message</h4>
+					</div>
+
+					<div class="nav-option option4">
+						<h4> Accounts & Billings</h4>
+					</div>
+
+					<div class="nav-option option5">
+						<h4> My Setting</h4>
+					</div>
+
+					<div class="nav-option option6">
+						<h4> Creater Support</h4>
+					</div>
+
+					<div class="nav-option logout">
+						<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/7.png"
+							class="nav-img"
+							alt="logout">
+						<h3>Logout</h3>
+					</div>
+
+				</div>
+			</nav>
+		</div>
+		<div class="main">
+
+			<div class="searchbar2">
+				<span class="text">
+					<h3>My courses</h3>
+					<p>10</p>
+				</span>
+				<div class="searchbtn">
+				<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+						class="icn srchicn"
+						alt="search-button">
+				</div>
+			</div>
+
+			<div class="box-container">
+
+				<div class="box box1">
+					<div class="text">
+						<h2 class="topic-heading">Total Revenue</h2>
+						<h2 class="topic">Article Views</h2>
+					</div>
+
+				</div>
+
+				<div class="box box2">
+					<div class="text">
+						<h2 class="topic-heading">My Courese</h2>
+						<h2 class="topic">Likes</h2>
+					</div>
+
+	
+				</div>
+
+				<div class="box box3">
+					<div class="text">
+						<h2 class="topic-heading">Total Students</h2>
+						<h2 class="topic">Comments</h2>
+					</div>
+
+		
+				</div>
+
+			</div>
+
+			
+		</div>
+	</div>
+	<script>
+		let menuicn = document.querySelector(".menuicn");
+		let nav = document.querySelector(".navcontainer");
+		
+		menuicn.addEventListener("click",()=>
+		{
+			nav.classList.toggle("navclose");
+		})
+		</script>
+		
+	<script src="script.js"></script>
+</body>
+</html>
